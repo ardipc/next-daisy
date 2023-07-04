@@ -7,7 +7,17 @@ export default function Home() {
     <main>
       <NavbarTop />
 
-      <div className="mx-auto max-w-7xl py-16 sm:px-6 sm:py-8 lg:px-8">
+      <div className="mx-auto max-w-7xl sm:px-6 sm:py-4 lg:px-8">
+        <div className="text-sm breadcrumbs">
+          <ul>
+            <li><a>Home</a></li> 
+            <li><a>Documents</a></li> 
+            <li>Add Document</li>
+          </ul>
+        </div>
+      </div>
+
+      <div className="mx-auto max-w-7xl sm:px-6 sm:pb-8 lg:px-8">
         <div className="relative isolate overflow-hidden bg-gray-900 px-6 pt-8 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-8 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
           <svg
             viewBox="0 0 1024 1024"
