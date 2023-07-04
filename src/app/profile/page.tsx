@@ -1,7 +1,12 @@
 "use client"
 
+import NavbarTop from "@/components/NavbarTop"
+
 export default function Page() {
   return (
-    <h1>Profil</h1>
+    <>
+      <NavbarTop />
+      <h1>Profil</h1>
+    </>
   )
 }
